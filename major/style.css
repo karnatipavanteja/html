@@ -1,0 +1,141 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:wght@100&display=swap');
+</style>
+*{
+    margin:0px ;
+    padding:0px ;
+    box-sizing: border-box;
+}
+.root{
+    --bac
+
+}
+body{
+    margin: 0%;
+    padding:0%;
+    background-color:var(--background-color);
+
+}
+h1,h2,h3,h4,h5,h6,p,a,label,span{
+    font-family: font-family: 'Libre Baskerville', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+
+.head{
+    background-image: ;
+}
+.home{
+    background-image:url(assets/header-background.jpg); 
+    min-height:90vh ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+}
+nav{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem; 
+    position: fixed;
+    top:0 ;
+    left: 0;
+    width: 100%;
+    
+   
+    /* justify-content: space-between; */
+  
+}
+ nav ul{
+
+    display: flex;
+    flex-direction: row;
+    gap: 2rem; 
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+li{
+    list-style-type: none;
+}
+nav img{
+    padding:0.5rem  ;
+    height: 30px;
+}
+nav a :visited{
+    color: white;
+}
+nav a:hover{
+    transition: 0.125rem, ease-in-out;
+    color: white;
+}
+.home h1{
+    text-transform: uppercase;
+
+}
+button{
+    border:green ;
+    background-color: green;
+    color:white ;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding:1rem 2rem ;
+    transition: 0.125s ease-in-out;
+}
+button:hover{
+   
+    color:white;
+    background: transparent;
+    border: green;
+
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.intro .content {
+    display: flex;
+    flex-direction: row;
+    gap:10rem ;
+    flex-wrap: wrap;
+    /* flex-shrink: 0; */
+
+   }
+   .intro .content text{
+ width:50% ;
+    /* gap:2rem ; */
+    flex-shrink: 0;
+    
+
+   }
+   .intro .content .img-container{
+    display: flex;
+    width:50%;
+    /* object-fit: cover; */
+    flex-shrink: 0;
+    flex-direction:row ;
+    
+    overflow: hidden;
+    filter: grayscale(25%);
+   }
+   .intro .content img{
+    width: 100%;
+    object-fit: cover;
+    height:auto ;
+    border-radius:  5px; ;
+   
+    /* gap: 2rem; */
+    flex-shrink: 0;
+    
+   }
+   .intro .content img:hover{
+    transform: scale(1.5);
+    
+
+   }

@@ -61,7 +61,7 @@ li{
     align-items: center;
     justify-content:center;
     box-shadow:0px 0px 5px black ;
-     /* position: relative;   */
+     position: absolute;   
 
     height:400px;
 background-image: url("https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg") ;
@@ -69,7 +69,7 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 input{    
-    position: fixed;
+    position: sticky;
     background-color: rgb(99,18,18,1);
     color: whitesmoke;
   height:50px;
